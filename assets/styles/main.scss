@@ -1,0 +1,102 @@
+@import "common/variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+// endbower
+
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/grid";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+
+//Estilos del Header
+
+.header-grupoym{
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    height: 80px;
+    display: flex;    
+    align-items: center;
+    color: #FFF;
+    #navbarNav{
+        display: flex;
+        justify-content: flex-end;
+        ul{
+           display: contents;
+           li{
+               margin-left: 42px;
+               a{
+                   color: #FFF;
+               }
+           }
+        }
+    }
+}
+
+//Estilos del home
+.fondo1{
+    position: absolute;
+    img{
+        height: 800px;
+    }
+}
+.bg-blue{
+    color: #FFF;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 800px;
+    .text-container-one{
+        margin-bottom: 120px;
+    }
+}
+
+.bg-red{
+    background-color: red;
+    height: 800px;
+    display: flex;    
+    align-items: center;
+    .title-content-two{
+        color: white;
+    }
+    .description-content-two{
+        color: white;
+    }
+}
+
+.bg-orange{
+    background-color: orange;
+    height: 800px;
+    display: flex;    
+    align-items: center;
+    .title-content-three{
+        color: white;
+    }
+}
+
+.bg-purple{
+    background-color: purple;
+    height: 800px;
+    display: flex;    
+    align-items: center;
+    .title-content-four{
+        color: white;
+    }
+}
+
+.footer{
+    background-color: #000;
+    color: whitesmoke;
+    height: 100px;
+}
